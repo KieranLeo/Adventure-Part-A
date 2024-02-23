@@ -23,7 +23,7 @@ int main()
 	cout << "What is your name adventurer?" << endl;
 
 //READ the player's response into the playerName variable
-	cin >> playerName;
+	getline(cin, playerName);
 
 //DISPLAY a greeting to the player, using the playerName variable
 	cout << "Hello there " << playerName << ", this is a dangerous place! Let us see where the path takes you." << endl;
